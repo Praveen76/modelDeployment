@@ -4,7 +4,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('D:/Company/visionet/Azure/modelDeployment/Azure/rf.pkl','rb'))
+model = pickle.load(open('./rf.pkl','rb'))
 
 
 @app.route('/')
